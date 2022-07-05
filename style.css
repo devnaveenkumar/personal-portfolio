@@ -1,0 +1,273 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #e74c3c;
+    animation: bg-color 5s infinite;
+  }
+  @keyframes bg-color {
+    0% { background-color: #e74c3c; }
+    20% { background-color: #f1c40f; }
+    40% { background-color: #1abc9c; }
+    60% { background-color: #3498db; }
+    80% { background-color: #9b59b6; }
+    100% { background-color: #e74c3c; }
+  }
+  
+  #hr {
+    position: absolute;
+    left: 26%;
+    top: 30%;
+    padding: 1px;
+    border: 0.01px solid;
+    width: 50%;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+  }
+
+#heading {
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
+
+#p1 {
+    position: absolute;
+    left: 38%;
+    top: 35%;
+    font-size: 30px;
+}
+
+#p2 {
+    position: absolute;
+    left: 40%;
+    top: 42%;
+    font-size: 30px;
+}
+
+#abt {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 90%;
+    top: 6%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#abt:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #abt:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+
+
+#button {
+    text-decoration: none;
+    color: black;
+    
+    background-color: none;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#button:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #button:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+  
+
+
+#skills {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    left: 3%;
+
+    border: 1px solid black;
+   padding: 10px;
+    border-radius: 10px;        
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#skills:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #skills:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+
+#resume {
+    font-size: 20px;
+    
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    left: 8%;
+
+    border: 1px solid black;
+   padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#resume:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #resume:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+
+  #linkedin {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 70%;
+    bottom: 50px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+
+  #linkedin:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #linkedin:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+
+  #fb {
+    text-decoration: none;
+
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 74%;
+    bottom: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+
+  #fb:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #fb:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+
+  #insta {
+    text-decoration: none;
+
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 77.7%;
+    bottom: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+
+  #insta:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #insta:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+
+  #twitter {
+    text-decoration: none;
+
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 82%;
+    bottom: 50px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+
+  #twitter:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #twitter:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+
+  #github {
+    text-decoration: none;
+
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 86.2%;
+    bottom: 50px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  #github:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+    cursor: pointer;
+  }
+  #github:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
